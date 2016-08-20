@@ -1,1 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
+ h1 {
+ 	text-align: center;
+ 	color: grey;
+ 	margin-bottom: 30px;
+ }
+
+ div.menu-item {
+ 	float: left;
+ 	border: 1px solid black;
+ 	position: relative;
+ 	padding-top: 0;
+ 	margin: 5px;
+
+ }
+
+ .title1, .title2, .title3 {
+ 	position: absolute;
+ 	width: 33.3%;
+ 	top: 0;
+ 	right: 0;
+ 	background-color: #a3a3a3;
+ 	border: 1px solid black;
+ 	margin-top: 0;
+ 	padding: 8px;
+ 	text-align: center;
+ }
+
+ .description {
+ 	padding: 15px;
+ 	margin-top: 30px;
+ }
+
+ .row {
+ 	width: 100%;
+ }
+
+ @media (min-width: 992px) {
+ 	.col-lg-4 {
+    width: 33.33%;
+  }
+ }
